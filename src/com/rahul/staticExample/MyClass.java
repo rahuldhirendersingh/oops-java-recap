@@ -1,16 +1,14 @@
 package com.rahul.staticExample;
 
-class InnerClass {
-    String name;
-    public InnerClass (String name) {
-        this.name = name;
-    }
-}
-
 // outside classes cannot be static
 public class MyClass {
     // inner classes can be static or non-static (both allowed)
-
+    static class InnerClass {
+        String name;
+        public InnerClass (String name) {
+            this.name = name;
+        }
+    }
 
     public static void main(String[] args) {
         InnerClass innerClass = new InnerClass("MyObject");
