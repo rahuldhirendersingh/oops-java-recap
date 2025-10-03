@@ -22,3 +22,17 @@
 - wrapper classes
 - "final" keyword
 - garbage collection
+
+## Packages | Static | Singleton Classes
+
+- packages in java
+- import statement
+- static keyword in java
+- static variables
+- static methods
+- non-static members inside static context
+- static member inside non-static context
+- "this" keyword inside static methods
+- inner classes (static / non-static)
+- static block
+- singleton class
